@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'dancingscript';
+    src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+body{
+    margin: 0;
+    background-color: #c06c84;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f8b195;
+    padding: 20px;
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.taking{
+    margin-left: 175px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: #355c7d !important;
+    border-bottom: 1px solid #ddd;
+}
+
+li button {
+    background-color:  #f67280;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.edit{
+    padding: 5px 10px;
+}
